@@ -1,0 +1,123 @@
+
+
+/*========================*/
+/* BASIC SETUP */
+/*========================*/
+
+/*
+font family file link 
+light=300*
+regular=400
+semi-bold=600
+bold=700
+*/
+@font-face{
+	src: url('../vendors/fonts/TitilliumWeb-Regular.ttf');
+	font-family: Titillium Web;
+}
+/*all html tag select*/
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	outline: none;
+}
+body{
+	font-family: Titillium Web;
+	text-rendering: optimizeLegibility;
+}
+/*list tag*/
+ul li{
+	list-style-type: none;
+}
+/*anchor tag*/
+a{
+	text-decoration: none;
+}
+/*img tag*/
+img{
+	vertical-align: middle;
+}
+
+
+
+/*=======================*/
+/*header Section 01 */
+/*=======================*/
+.header-section1{
+	width: 100%;
+	background: #363237;
+	padding: 20px;
+}
+.header-widget1{
+	max-width: 1140px;
+    margin: auto;
+    display: block;
+	background: #4F5060;
+}
+.navbar1{
+	padding: 25px 0px;
+}
+.mian-menu1 li{
+	display: inline-block;
+	margin-left: 30px;
+}
+.main-menu1 li:first-child{
+	margin-left: 0px;
+}
+
+
+
+
+/*=======================*/
+/*header Section 02 */
+/*=======================*/
+.header-section2{
+	width: 100%;
+	background: #363237;
+	padding: 20px;
+}
+.header-widget2{
+	max-width: 1140px;
+    margin: auto;
+    display: block;
+	background: #4F5060;
+}
+.navbar2{
+	padding: 25px 0px;
+}
+.mian-menu2 li{
+	float:left;
+	margin-left: 30px;
+}
+.main-menu2 li:first-child{
+	margin-left: 0px;
+}
+
+
+
+/*=======================*/
+/*header Section 03 */
+/*=======================*/
+.header-section3{
+	width: 100%;
+	background: #363237;
+	padding: 20px;
+}
+.header-widget3{
+	max-width: 1140px;
+    margin: auto;
+    display: block;
+	background: #4F5060;
+}
+.navbar3{
+	padding: 25px 0px;
+}
+.mian-menu3{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.mian-menu3 *{
+	flex: 1;
+}
